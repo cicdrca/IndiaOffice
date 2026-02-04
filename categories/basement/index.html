@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basement - Design Inputs</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Civil Engineering Design Inputs</h1>
+            <nav>
+                <a href="../../index.html">Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="category-header">
+            <h2>Basement</h2>
+            <a href="../../index.html" class="back-link">← Back to All Categories</a>
+        </section>
+
+        <section class="category-description">
+            <h3>Description</h3>
+            <p>
+                Basement design reference images including foundation work, waterproofing, structural elements, and finishing details.
+            </p>
+        </section>
+
+        <section class="images-section">
+            <h3>Design Reference Images</h3>
+            <div class="image-gallery" id="imagesGallery">
+                <!-- Images will be loaded from Office/images/basement/ folder -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Civil Engineering Design Inputs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="../../data/images-data.js"></script>
+    <script src="../../js/category-detail.js"></script>
+    <script>
+        // Load images for basement category
+        const categoryId = 'basement';
+        loadCategoryImages(categoryId);
+    </script>
+</body>
+</html>
