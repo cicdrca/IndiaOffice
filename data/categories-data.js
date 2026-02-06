@@ -29,6 +29,6 @@ window.categoriesData = [
         id: 'windows',
         name: 'Windows',
         description: 'Window designs and installations',
-        imageCount: 22
+        imageCount: 43
     }
 ];

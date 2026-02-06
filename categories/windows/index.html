@@ -35,6 +35,61 @@
                 <!-- Images will be loaded from Office/images/windows/ folder -->
             </div>
         </section>
+
+        <!-- New: Categorized Window Sections -->
+        <section class="images-section subcategory-section">
+            <h2 style="color: #1a472a; margin-bottom: 1.5rem;">Primary Windows (Actual Windows)</h2>
+            
+            <div class="subcategory-group">
+                <h3>Standard Wide Grill Windows (Type A)</h3>
+                <p class="subcategory-description">Standard wide rectangular grill window</p>
+                <div class="image-gallery" id="gallery-w1-standard"></div>
+            </div>
+
+            <div class="subcategory-group">
+                <h3>Medium Wide Grill Windows (Type B)</h3>
+                <p class="subcategory-description">Medium wide / near-square grill window</p>
+                <div class="image-gallery" id="gallery-w2-medium"></div>
+            </div>
+
+            <div class="subcategory-group">
+                <h3>Extra-Wide Grill Windows (Type C)</h3>
+                <p class="subcategory-description">Extra-wide grill window</p>
+                <div class="image-gallery" id="gallery-w3-extra"></div>
+            </div>
+
+            <div class="subcategory-group">
+                <h3>Feature Designer Grill Windows</h3>
+                <p class="subcategory-description">Feature window with different designer grill pattern</p>
+                <div class="image-gallery" id="gallery-w4-designer"></div>
+            </div>
+        </section>
+
+        <section class="images-section subcategory-section">
+            <h2 style="color: #1a472a; margin-bottom: 1.5rem;">Utility / Bathroom Windows</h2>
+            
+            <div class="subcategory-group">
+                <h3>Tall Narrow Ventilator (Bath/Utility)</h3>
+                <p class="subcategory-description">Tall narrow ventilator window for bathroom or utility spaces</p>
+                <div class="image-gallery" id="gallery-u1-tall"></div>
+            </div>
+
+            <div class="subcategory-group">
+                <h3>Small Horizontal Ventilator (Toilet/Service)</h3>
+                <p class="subcategory-description">Small horizontal ventilator for toilet or service areas</p>
+                <div class="image-gallery" id="gallery-u2-horizontal"></div>
+            </div>
+        </section>
+
+        <section class="images-section subcategory-section">
+            <h2 style="color: #1a472a; margin-bottom: 1.5rem;">Excluded (Not Windows)</h2>
+            
+            <div class="subcategory-group">
+                <h3>Non-Window Openings</h3>
+                <p class="subcategory-description">Niches / service openings / not for window ordering</p>
+                <div class="image-gallery" id="gallery-x-exclude"></div>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -51,9 +106,12 @@
     <script src="../../data/images-data.js"></script>
     <script src="../../js/category-detail.js"></script>
     <script>
-        // Load images for windows category
+        // Load images for windows category (main gallery - existing images)
         const categoryId = 'windows';
         loadCategoryImages(categoryId);
+        
+        // Load new subcategorized windows sections
+        loadWindowsSubcategories();
     </script>
 </body>
 </html>
