@@ -104,3 +104,56 @@ window.imagesData = {
         '20260130_111824.jpg'
     ]
 };
+
+// New: Windows Subcategories Data
+window.windowsSubcategories = [
+    {
+        id: 'w1-standard',
+        name: 'Standard Wide Grill Windows (Type A)',
+        description: 'Standard wide rectangular grill window',
+        folder: 'A-PRIMARY_W1_Standard-Wide-Grill',
+        images: ['2.jpeg', '3.jpeg', '4.jpeg', '6.jpeg', '14.jpeg']
+    },
+    {
+        id: 'w2-medium',
+        name: 'Medium Wide Grill Windows (Type B)',
+        description: 'Medium wide / near-square grill window',
+        folder: 'A-PRIMARY_W2_Medium-Wide-Gril',
+        images: ['8.jpeg', '10.jpeg', '15.jpeg', '17.jpeg', '18.jpeg']
+    },
+    {
+        id: 'w3-extra',
+        name: 'Extra-Wide Grill Windows (Type C)',
+        description: 'Extra-wide grill window',
+        folder: 'A-PRIMARY_W3_Extra-Wide-Grill',
+        images: ['13.jpeg']
+    },
+    {
+        id: 'w4-designer',
+        name: 'Feature Designer Grill Windows',
+        description: 'Feature window with different designer grill pattern',
+        folder: 'A-PRIMARY_W4_Feature-Designer-Grill',
+        images: ['1.jpeg']
+    },
+    {
+        id: 'u1-tall',
+        name: 'Tall Narrow Ventilator (Bath/Utility)',
+        description: 'Tall narrow ventilator window for bathroom or utility spaces',
+        folder: 'B-UTILITY_U1_Tall-Narrow-Vent',
+        images: ['20.jpeg', '21.jpeg']
+    },
+    {
+        id: 'u2-horizontal',
+        name: 'Small Horizontal Ventilator (Toilet/Service)',
+        description: 'Small horizontal ventilator for toilet or service areas',
+        folder: 'B-UTILITY_U2_Small-Horizontal-Vent',
+        images: ['16.jpeg', '19.jpeg']
+    },
+    {
+        id: 'x-exclude',
+        name: 'Non-Window Openings (Excluded)',
+        description: 'Niches / service openings / not for window ordering',
+        folder: 'X-EXCLUDE_NonWindow-Openings',
+        images: ['5.jpeg', '7.jpeg', '9.jpeg', '11.jpeg', '12.jpeg']
+    }
+];

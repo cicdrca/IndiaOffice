@@ -247,6 +247,34 @@ footer {
     margin-top: 3rem;
 }
 
+/* Subcategory Sections */
+.subcategory-section {
+    margin-top: 2.5rem;
+    border-top: 3px solid #1a472a;
+    padding-top: 1.5rem;
+}
+
+.subcategory-group {
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+    border-left: 4px solid #2d7a4d;
+}
+
+.subcategory-group h3 {
+    color: #1a472a;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.subcategory-description {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     header .container {

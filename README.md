@@ -12,7 +12,7 @@ This GitHub Pages site organizes design reference images into categorized galler
 - **Doors** - Door designs, materials, frames, and installations (37 images)
 - **Steps** - Staircase designs, materials, and safety features (13 images)
 - **Water** - Plumbing, drainage, and water systems (3 images)
-- **Windows** - Window styles, frames, and installations (22 images)
+- **Windows** - Window styles, frames, and installations (22 images + 21 categorized images in subcategories)
 
 ## Structure
 
@@ -50,6 +50,7 @@ IndiaOffice/
 - **Modal Viewer** - Click any image to view full-size
 - **Clean Navigation** - Easy access between categories
 - **Keyboard Support** - ESC key to close modal
+- **Subcategories** - Windows category includes organized subcategories for Primary Windows, Utility/Bathroom, and Excluded items
 
 ## Deployment
 
@@ -74,6 +75,25 @@ This site is designed for GitHub Pages deployment:
 3. Add image list to `data/images-data.js`
 4. Create `categories/[new-category]/index.html` (copy from existing)
 5. Update the category ID in the inline script
+
+## Windows Subcategories
+
+The Windows category includes additional subcategorization for better organization:
+
+### Primary Windows (Actual Windows)
+- **Type A - Standard Wide Grill**: Standard wide rectangular grill window (5 images)
+- **Type B - Medium Wide Grill**: Medium wide / near-square grill window (5 images)
+- **Type C - Extra-Wide Grill**: Extra-wide grill window (1 image)
+- **Designer Grill**: Feature window with different designer grill pattern (1 image)
+
+### Utility / Bathroom
+- **Tall Narrow Ventilator**: For bathroom or utility spaces (2 images)
+- **Small Horizontal Ventilator**: For toilet or service areas (2 images)
+
+### Excluded (Not Windows)
+- **Non-Window Openings**: Niches / service openings / not for window ordering (5 images)
+
+Each subcategory displays its images in a separate gallery section on the Windows page.
 
 ## Technical Details
 
